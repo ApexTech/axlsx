@@ -3,6 +3,11 @@ module Axlsx
   # XML Encoding
   ENCODING = "UTF-8".freeze
 
+  # conventions namespace
+  XML_NS_MC = "http://schemas.openxmlformats.org/markup-compatibility/2006".freeze
+  XML_NS_MV = "urn:schemas-microsoft-com:mac:vml".freeze
+  XML_NS_C14 = "http://schemas.microsoft.com/office/drawing/2007/8/2/chart".freeze
+
   # spreadsheetML namespace
   XML_NS = "http://schemas.openxmlformats.org/spreadsheetml/2006/main".freeze
 
